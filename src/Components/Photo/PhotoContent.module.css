@@ -24,22 +24,31 @@
 }
 
 .img {
-  grid-row: 1;
+  grid-row: 1/4;
 }
 
-.tittleUser {
-  display: flex;
-  align-items: center;
-  height: 4rem;
+.comments {
+  padding: 0 2rem;
+}
+
+@media (max-width: 64rem) {
+  .photo {
+    height: auto;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+    grid-template-columns: minmax(20rem, 40rem);
+  }
+  .img {
+    grid-row: 1;
+  }
 }
 
 .author {
   opacity: 0.5;
-  width: 100vw;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
 }
 
 .author a:hover {
@@ -48,11 +57,11 @@
 
 .visualizacoes::before {
   content: "";
+  display: inline-block;
   width: 16px;
   height: 10px;
   margin-right: 0.5rem;
-  display: inline-block;
-  background: url("../../Assets/visualizacao-black.svg") no-repeat;
+  background: url("../../Assets/visualizacao-black.svg");
 }
 
 .attributes {
@@ -77,38 +86,4 @@
   width: 2px;
   background: #333;
   margin-top: 5px;
-  left: -10px;
-}
-
-.exitBtn {
-  color: #333;
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  margin-bottom: 2rem;
-  cursor: pointer;
-  border: none;
-  background: none;
-  font-size: 1.2rem;
-  border-radius: 0.2rem;
-}
-
-.exitBtn:hover,
-.exitBtn:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px #fea, 0 0 0 4px #fb1;
-  color: #fb1;
-}
-
-.comments {
-  padding: 0 2rem;
-}
-
-@media (max-width: 64rem) {
-  .photo {
-    height: auto;
-    max-height: calc(100vh - 4rem);
-    overflow-y: auto;
-    grid-template-columns: minmax(20rem, 40rem);
-  }
 }

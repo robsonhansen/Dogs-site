@@ -6,13 +6,6 @@ import PhotoComments from "./PhotoComments";
 const PhotoContent = ({ data }) => {
   const { photo, comments } = data;
 
-  function handleOutSideClick(event) {
-    if (event.target === event.currentTarget) {
-      event.preventDefault();
-      window.history.back();
-    }
-  }
-
   return (
     <div className={styles.photo}>
       <div className={styles.img}>
@@ -21,9 +14,6 @@ const PhotoContent = ({ data }) => {
       <div className={styles.details}>
         <div>
           <div className={styles.tittleUser}>
-            <button className={styles.exitBtn} onClick={handleOutSideClick}>
-              x
-            </button>
             <p className={styles.author}>
               <Link to={`/perfil/${photo.author}`}>
                 @{photo.author}

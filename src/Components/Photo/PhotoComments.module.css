@@ -1,0 +1,40 @@
+.commentsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.divComments {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  max-height: 18rem;
+}
+
+.comments {
+  overflow-y: scroll;
+  word-break: break-word;
+}
+
+.comments::-webkit-scrollbar {
+  width: 6px;
+  height: 3px;
+}
+
+.comments::-webkit-scrollbar-track {
+  background: transparent;
+  padding: 2px;
+}
+
+.comments::-webkit-scrollbar-thumb {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.comments li {
+  margin-bottom: 0.5rem;
+  line-height: 1.2rem;
+}
