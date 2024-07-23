@@ -14,9 +14,17 @@
   max-height: 18rem;
 }
 
+.single.divComments {
+  padding: 0px;
+}
+
 .comments {
   overflow-y: scroll;
   word-break: break-word;
+}
+
+.single.comments {
+  padding: 0px;
 }
 
 .comments::-webkit-scrollbar {
