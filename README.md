@@ -1,4 +1,4 @@
-# Dogs - Rede Social Cachorros
+# Dogs - Rede Social Para Cachorros
 
 <p align=center>
     <a>
