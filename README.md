@@ -1,10 +1,11 @@
 # Dogs - Rede Social Para Cachorros
-
+<br>
 <p align=center>
     <a>
         <img src="./src/Assets/dog-white.svg" alt="Logo Dogs" style="width: 150px;"/>
     </a>
 </p>
+<br>
 
 ## Descrição
 
