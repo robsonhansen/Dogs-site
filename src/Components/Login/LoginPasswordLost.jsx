@@ -1,4 +1,5 @@
 import React from "react";
+import style from "./LoginPasswordLost.module.css";
 import Input from "../Forms/Input";
 import Button from "../Forms/Button";
 import useForm from "../../Hooks/useForm";
@@ -23,19 +24,21 @@ const LoginPasswordLost = () => {
   }
 
   return (
-    <section>
+    <section className={`${style.containerForm} animeLeft`}>
       <Head title="Perdeu a senha?" />
-      <h1 className="title">Perdeu a senha?</h1>
-      {data
-        ? <p style={{ color: "#4c1" }}>
-            {data}
-          </p>
-        : <form onSubmit={handleSubmit}>
-            <Input label="Email / Usuário" type="text" name="email" {...login} />
-            {loading ? <Button disabled>Enviando...</Button> : <Button>Enviar email</Button>}
-          </form>}
+      <div>
+        <h1 className="title">Perdeu a senha?</h1>
+        {data
+          ? <p style={{ color: "#4c1" }}>
+              {data}
+            </p>
+          : <form onSubmit={handleSubmit}>
+              <Input label="Email / Usuário" type="text" name="email" {...login} />
+              {loading ? <Button disabled>Enviando...</Button> : <Button>Enviar email</Button>}
+            </form>}
 
-      <Error error={error} />
+        <Error error={error} />
+      </div>
     </section>
   );
 };
