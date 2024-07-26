@@ -1,8 +1,10 @@
 # Dogs - Rede Social para Compartilhamento de Fotos de Cachorros
 
-<div style="align: center;">
-  <img src="./src/Assets/dog-white.svg" alt="Logo Dogs" style="width: 150px;"/>
-</div>
+<p align=center>
+    <a>
+        <img src="./src/Assets/dog-white.svg" alt="Logo Dogs" style="width: 150px;"/>
+    </a>
+</p>
 
 ## Dogs Rede Social
 
