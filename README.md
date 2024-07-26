@@ -2,7 +2,7 @@
 <br>
 <p align=center>
     <a>
-        <img src="./src/Assets/dog-white.svg" alt="Logo Dogs" />
+        <img src="./src/Assets/dog-white.svg" alt="Logo Dogs" width=150px; />
     </a>
 </p>
 <br>
