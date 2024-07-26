@@ -31,7 +31,7 @@ const LoginForm = () => {
         <Imput label="Usuário" type="text" name="username" autocomplete="username" {...username} />
         <Imput label="Senha" type="password" name="password" autocomplete="current-password" {...password} />
         {loading ? <Button disabled>Carregando...</Button> : <Button>Entrar</Button>}
-        <Error error={error} />
+        <Error error={error && "Usuário ou senha incorretos."} />
       </form>
       <Link className={styles.perdeu} to="/login/perdeu">
         Perdeu a senha?
