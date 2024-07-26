@@ -1,4 +1,4 @@
-# Dogs - Rede Social para Compartilhamento de Fotos de Cachorros
+# Dogs - Rede Social Cachorros
 
 <p align=center>
     <a>
@@ -6,7 +6,7 @@
     </a>
 </p>
 
-## Dogs Rede Social
+## Descrição
 
 "Dogs" é uma rede social dedicada a amantes de cachorros, permitindo aos usuários compartilharem fotos dos seus animais de estimação durante o dia a dia. Se você adora mostrar o seu cachorro para o mundo ou simplesmente quer ver fotos fofas de outros cãezinhos, Dogs é o lugar ideal!
 
