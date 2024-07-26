@@ -1,10 +1,10 @@
-<p align=center width=80px>
+<p align=center style="width: 150px;">
     Dogs - Rede Social Para Cachorros
 </p>
 <br>
 <p align=center>
     <a>
-        <img src="./src/Assets/dog-white.svg" alt="Logo Dogs" style="width: 150px;"/>
+        <img src="./src/Assets/dog-white.svg" alt="Logo Dogs" />
     </a>
 </p>
 <br>
