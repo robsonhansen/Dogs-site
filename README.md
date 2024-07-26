@@ -1,6 +1,6 @@
-<p align=center>
-    <p style="width: 90px;">Dogs - Rede Social Para Cachorros</p>
-</p># 
+<p align=center width=80px>
+    Dogs - Rede Social Para Cachorros
+</p>
 <br>
 <p align=center>
     <a>
