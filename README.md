@@ -1,6 +1,8 @@
 # Dogs - Rede Social para Compartilhamento de Fotos de Cachorros
 
-![Logo Dog](./src/Assets/dog-white.svg)
+<div style="text-align: center;">
+  <img src="./src/Assets/dog-white.svg" alt="Logo Dogs" style="width: 300px;"/>
+</div>
 
 ## Dogs Rede Social
 
@@ -22,4 +24,4 @@
 
 ## Instalação
 
-1. Clone o repositório.
+1. Clone o repositório
