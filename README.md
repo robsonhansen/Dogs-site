@@ -1,4 +1,4 @@
-<p width=250px;>Dogs - Rede Social Para Cachorros </p>
+#>Dogs - Rede Social Para Cachorros
 <br>
 <p align=center>
     <a>
