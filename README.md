@@ -1,5 +1,5 @@
 <p align=center>
-    <h1>Dogs - Rede Social Para Cachorros</h1>
+    <p style="width: 90px;">Dogs - Rede Social Para Cachorros</p>
 </p># 
 <br>
 <p align=center>
